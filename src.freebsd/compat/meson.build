@@ -19,6 +19,7 @@ libcompat_sources = [
     '../../src.compat/signames.c',
     '../../src.compat/strtonum.c',
     '../../src.compat/reallocf.c',
+    'statx_compat.c',
 ]
 
 libcompat = static_library(

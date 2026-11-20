@@ -50,7 +50,7 @@ subdir('sleep')
 subdir('sort')
 subdir('split')
 subdir('stat')
-subdir('stdbuf')
+# Ferrix: stdbuf needs a shared lib — disabled
 subdir('stty')
 subdir('sync')
 subdir('tail')

@@ -48,6 +48,7 @@
 #include <sysexits.h>
 #include <unistd.h>
 #include <libxo/xo.h>
+#include <errno.h>
 #include <assert.h>
 #include <mntent.h>
 
@@ -274,8 +275,7 @@ main(int argc, char *argv[])
 		prtstat(&totalbuf, &maxwidths);
 
 	xo_close_container("storage-system-information");
-	if (xo_finish() < 0)
-		rv = EXIT_FAILURE;
+	xo_finish();
 	freemntinfo(mntbuf, mntsize);
 	exit(rv);
 }

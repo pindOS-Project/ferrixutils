@@ -13,7 +13,7 @@ subdir('dbcompat')
 
 # libmp
 mpinc = include_directories('libmp')
-subdir('libmp')
+# Ferrix: libmp requires openssl — disabled
 
 # standalone toplevel projects
 
@@ -34,7 +34,7 @@ subdir('unvis')
 subdir('bintrans')
 subdir('vis')
 subdir('which')
-subdir('libstdbuf')
+# Ferrix: static build — libstdbuf shared lib disabled
 
 if not get_option('pam').disabled() and pam.found()
     subdir('su')

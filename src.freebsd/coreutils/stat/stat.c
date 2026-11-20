@@ -50,6 +50,7 @@ __RCSID("$NetBSD: stat.c,v 1.33 2011/01/15 22:54:10 njoly Exp $"
 
 #include <sys/param.h>
 #include <sys/stat.h>
+#include <linux/statx.h>
 #include <sys/mount.h>
 #include <sys/sysmacros.h>
 

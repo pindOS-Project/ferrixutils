@@ -170,7 +170,7 @@ main(int argc, char *argv[])
 
 	fileargs_free(fa);
 	xo_close_container("wc");
-	if (xo_finish() < 0)
+	xo_finish();
 		xo_err(EXIT_FAILURE, "stdout");
 	exit(errors == 0 ? EXIT_SUCCESS : EXIT_FAILURE);
 }

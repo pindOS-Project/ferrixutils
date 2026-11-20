@@ -5,6 +5,7 @@
  */
 
 #include <sys/types.h>
+#include <linux/statx.h>
 #include <sys/sysmacros.h>
 
 #include <err.h>

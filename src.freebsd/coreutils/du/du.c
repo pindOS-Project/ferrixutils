@@ -328,7 +328,7 @@ main(int argc, char *argv[])
 
 	ignoreclean();
 	xo_close_container("disk-usage-information");
-	if (xo_finish() < 0)
+	xo_finish();
 		xo_err(1, "stdout");
 	exit(rval);
 }

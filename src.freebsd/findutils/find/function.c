@@ -34,6 +34,7 @@
 
 #include <sys/param.h>
 #include <sys/stat.h>
+#include <linux/statx.h>
 #include <sys/types.h>
 #include <sys/acl.h>
 #include <sys/wait.h>

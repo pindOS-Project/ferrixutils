@@ -34,6 +34,7 @@
 #include <sys/param.h>
 #include <sys/mount.h>
 #include <sys/stat.h>
+#include <linux/statx.h>
 #include <sys/vfs.h>
 #include <sys/sysmacros.h>
 
