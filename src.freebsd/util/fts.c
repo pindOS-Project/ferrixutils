@@ -47,7 +47,7 @@
 #include <string.h>
 #include <unistd.h>
 
-#if !defined(_CHIMERAUTILS_BUILD) || !defined(HAVE_FTS_OPEN)
+#if !defined(_FERRIXUTILS_BUILD) || !defined(HAVE_FTS_OPEN)
 
 static FTSENT	*fts_alloc(FTS *, char *, size_t);
 static FTSENT	*fts_build(FTS *, int);

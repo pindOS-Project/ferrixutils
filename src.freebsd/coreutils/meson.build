@@ -71,7 +71,7 @@ subdir('wc')
 subdir('who')
 subdir('yes')
 
-if not chimera_realpath.enabled()
+if not ferrix_realpath.enabled()
     subdir('realpath')
 endif
 

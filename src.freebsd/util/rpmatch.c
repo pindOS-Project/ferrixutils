@@ -31,7 +31,7 @@
 #include <stdlib.h>
 #include <rpmatch.h>
 
-#if !defined(_CHIMERAUTILS_BUILD) || !defined(HAVE_FTS_OPEN)
+#if !defined(_FERRIXUTILS_BUILD) || !defined(HAVE_FTS_OPEN)
 
 int
 rpmatch(const char *response)

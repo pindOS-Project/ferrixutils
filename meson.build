@@ -1,5 +1,5 @@
 project(
-    'chimerautils',
+    'ferrixutils',
     ['c', 'cpp'],
     version: '15.1.2',
     default_options: [
@@ -68,7 +68,7 @@ add_project_arguments('-D_GNU_SOURCE', language: ['c', 'cpp'])
 add_project_arguments('-D_FILE_OFFSET_BITS=64', language: ['c', 'cpp'])
 
 # Determine whether we can include config-compat.h from public compat code
-add_project_arguments('-D_CHIMERAUTILS_BUILD', language: ['c', 'cpp'])
+add_project_arguments('-D_FERRIXUTILS_BUILD', language: ['c', 'cpp'])
 
 # Get rid of unused metadata variables
 add_project_arguments('-Dlint', language: ['c'])
@@ -108,7 +108,7 @@ if cc.has_header('stdckdint.h')
 endif
 
 # whether to use our own realpath
-chimera_realpath = get_option('chimera_realpath')
+ferrix_realpath = get_option('ferrix_realpath')
 
 # libacl is needed in several tools
 libacl = dependency('libacl', required: true)

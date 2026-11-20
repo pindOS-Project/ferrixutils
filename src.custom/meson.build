@@ -28,6 +28,6 @@ if libcrypto.found()
     subdir('mcookie')
 endif
 
-if chimera_realpath.enabled()
+if ferrix_realpath.enabled()
     subdir('realpath')
 endif

@@ -32,13 +32,13 @@
 #ifndef	_FTS_H_
 #define	_FTS_H_
 
-#ifdef _CHIMERAUTILS_BUILD
+#ifdef _FERRIXUTILS_BUILD
 #include "config-compat.h"
 #endif
 
 #include <time.h>
 
-#if !defined(_CHIMERAUTILS_BUILD) || !defined(HAVE_FTS_OPEN)
+#if !defined(_FERRIXUTILS_BUILD) || !defined(HAVE_FTS_OPEN)
 
 #include <sys/types.h>
 #include <sys/stat.h>

@@ -43,14 +43,14 @@ option('tiny',
     description: 'Also build tiny versions of some of the tools'
 )
 
-option('chimera_realpath',
+option('ferrix_realpath',
     type: 'feature', value: 'auto',
     description: 'Use custom implementation of realpath/readlink'
 )
 
 option('install-lib',
     type: 'boolean', value: true,
-    description: 'Whether to install chimerautils library'
+    description: 'Whether to install ferrixutils library'
 )
 
 option('selinux',
