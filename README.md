@@ -1,6 +1,6 @@
-# chimerautils
+# ferrixutils
 
-This is Chimera Linux's core userland. It consists of the following:
+This is Ferrix Kernel's core userland. It consists of the following:
 
 * Ports of FreeBSD tools
 * An internal library providing a compat interface to simplify porting
